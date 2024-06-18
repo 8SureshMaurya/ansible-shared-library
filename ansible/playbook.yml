@@ -1,0 +1,9 @@
+# ansible/playbook.yml
+---
+- name: Deploy Kafka
+  hosts: all
+  tasks:
+    - name: Example task to deploy Kafka
+      # Your Kafka deployment tasks here
+      debug:
+        msg: "Deploying Kafka to {{ kafka_env }}"
